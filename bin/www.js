@@ -1,7 +1,8 @@
 const dotenv = require("dotenv");
-const app = require("../index");
-dotenv.config();
 const debug = require("debug");
+const app = require("../index");
+
+dotenv.config();
 const portConnect = debug("app:connect");
 
 const port = process.env.PORT || 5000;

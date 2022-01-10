@@ -1,5 +1,7 @@
-const Post = require("../database/models/Post");
 const bcrypt = require("bcryptjs");
+const User = require("../database/models/User");
+const Post = require("../database/models/Post");
+
 const getUser = async (req, res) => {
   try {
     const posts = await Post.find();
@@ -39,9 +41,11 @@ const postUserRegistration = async (req, res) => {
 const postUserLogin = async (req, res) => {
   try {
     const user = await User.findOne({ username: req.body.username });
+    // eslint-disable-next-line no-unused-expressions
     !user && res.status(400).json("wrong user");
 
     const validate = await bcrypt.compare(req.body.password, user.password);
+    // eslint-disable-next-line no-unused-expressions
     !validate && res.status(400).json("wrong password");
 
     const { password, ...others } = user._doc;

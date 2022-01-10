@@ -1,6 +1,8 @@
 const express = require("express");
+
 const app = express();
 const dotenv = require("dotenv");
+
 dotenv.config({ path: "./bin/.env" });
 const morgan = require("morgan");
 const usersRoutes = require("./routes/routes");

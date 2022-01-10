@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const debug = require("debug");
+
 const appConnect = debug("app:connect");
 
 module.exports = mongoose
