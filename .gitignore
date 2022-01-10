@@ -1,5 +1,5 @@
 /node_modules
 **/.env
-.eslintrc.json
+.eslintrc
 .prettierrc
 .DS_Store
