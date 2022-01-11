@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
 const debug = require("debug");
-const app = require("../index");
+const app = require("../app");
 
 dotenv.config();
 const portConnect = debug("app:connect");

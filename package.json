@@ -2,7 +2,7 @@
   "name": "authentication",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "DEBUG=app:connect,connect nodemon bin/www.js",
     "dev": "DEBUG=app:connect,connect node bin/www.js"
