@@ -81,7 +81,7 @@ Read more on [prettier documentation](https://prettier.io/docs/en/options.html).
 
 ### eslintrc
 
-If you want suggestions on your code for better code practice and linting (highlighing/checking) of errors and warning with ease then eslint is the way. See the example below:
+If you want suggestions on your code for better code practices and linting (highlighing/checking) of errors and warnings with ease then eslint is the way. See the example below:
 
 `.eslint`
 
