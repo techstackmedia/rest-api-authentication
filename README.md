@@ -25,7 +25,7 @@ npm start
 - without nodemon (with node)
 
 ```bash
-npm dev
+npm run dev
 ```
 Debug for development included in both cases.
 
