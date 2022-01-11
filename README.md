@@ -17,29 +17,35 @@ npm install
 ```
 
 Run the server (in developement)
+
 - with nodemon
 
 ```bash
 npm start
 ```
+
 - without nodemon (with node)
 
 ```bash
 npm run dev
 ```
+
 Debug for development included in both cases.
 
 Run the server (in production)
+
 - without nodemon (with node)
 
 ```bash
 npm run prod
 ```
 
-### Testing 
+### Testing
+
 Testing the server
+
 - Install [Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/download) to test your routes based on request on the server.
-- Download and connect to mongoDB with either [Compass](https://www.mongodb.com/products/compass) or [Atlas](https://www.mongodb.com/cloud/atlas/register). 
+- Download and connect to mongoDB with either [Compass](https://www.mongodb.com/products/compass) or [Atlas](https://www.mongodb.com/cloud/atlas/register).
 
 ### Ignored Files
 
@@ -58,8 +64,9 @@ NODE_ENV=development
 ```
 
 ### prettierrc
+
 Prettier prettifies your code but you can override the default configuration of prettier. See the example below:
-  
+
 `.prettierrc`
 
 ```json
@@ -69,10 +76,12 @@ Prettier prettifies your code but you can override the default configuration of 
   "arrowParens": "avoid"
 }
 ```
+
 Read more on [prettier documentation](https://prettier.io/docs/en/options.html).
 
 ### eslintrc
-If your want suggestions on your code for better code practice and linting (highlighing/checking) of errors and warning with ease then eslint is the way. See the example below:
+
+If you want suggestions on your code for better code practice and linting (highlighing/checking) of errors and warning with ease then eslint is the way. See the example below:
 
 `.eslint`
 
@@ -97,8 +106,11 @@ If your want suggestions on your code for better code practice and linting (high
   }
 }
 ```
+
 Read more on [eslint documentation](https://eslint.org/docs/user-guide/configuring/).
 
 ---
+
 Visit my website at [techstackmedia.com](https://techstackmedia.com).
+
 <p>Happy coding!!! 😊<p>
