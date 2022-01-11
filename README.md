@@ -1,4 +1,4 @@
-# Installation
+# Installation and Configuration
 
 ## Steps
 
@@ -27,14 +27,14 @@ npm start
 ```bash
 npm dev
 ```
-Debug for development included in both cases
+Debug for development included in both cases.
 
-# Testing 
+### Testing 
 Testing the server
 - Install [Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/download) to test your routes based on request on the server.
 - Download and connect to mongoDB with either [Compass](https://www.mongodb.com/products/compass) or [Atlas](https://www.mongodb.com/cloud/atlas/register). 
 
-# Ignored Files
+### Ignored Files
 
 Include the following files:
 
@@ -50,7 +50,7 @@ PORT=<port>
 NODE_ENV=development
 ```
 
-# prettierrc
+### prettierrc
 Prettier prettifies your code but you can override the default configuration of prettier. See the example below:
   
 `.prettierrc`
@@ -64,7 +64,7 @@ Prettier prettifies your code but you can override the default configuration of 
 ```
 Read more on [prettier documentation](https://prettier.io/docs/en/options.html).
 
-# eslintrc
+### eslintrc
 If your want suggestions on your code for better code practice and linting (highlighing/checking) of errors and warning with ease then eslint is the way. See the example below:
 
 `.eslint`
