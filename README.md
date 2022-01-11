@@ -16,7 +16,7 @@ Install all packages and include `node_modules` to your project:
 npm install
 ```
 
-Run the server
+Run the server (in developement)
 - with nodemon
 
 ```bash
@@ -28,6 +28,13 @@ npm start
 npm dev
 ```
 Debug for development included in both cases.
+
+Run the server (in production)
+- without nodemon (with node)
+
+```bash
+npm run prod
+```
 
 ### Testing 
 Testing the server

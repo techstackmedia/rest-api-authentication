@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "DEBUG=app:connect,connect nodemon bin/www.js",
-    "dev": "DEBUG=app:connect,connect node bin/www.js"
+    "dev": "DEBUG=app:connect,connect node bin/www.js",
+    "prod": "NODE_ENV=production node bin/www.js"
   },
   "keywords": [],
   "author": "",
