@@ -13,11 +13,9 @@ const {
   deleteUserByID,
 } = controller;
 
-router.route("/register").post(postUserRegistration);
+router.route("/signup").post(postUserRegistration);
 router.route("/login").post(postUserLogin);
-
 router.route("/").get(getUser).post(saveAllPost);
-
 router
   .route("/:id")
   .get(getUserByID)

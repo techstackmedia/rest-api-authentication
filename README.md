@@ -10,7 +10,7 @@ Clone the repository to your project directory.
 git clone https://github.com/techstackmedia/rest-api-authentication.git
 ```
 
-Install all packages and include `node_modules` to your project:
+Install all packages and include `node_modules` to your project.
 
 ```bash
 npm install
