@@ -63,6 +63,9 @@ PORT=<port>
 NODE_ENV=development
 ```
 
+#### Note!
+- When hosting to a platform like [heroku](https://www.heroku.com/), you need to remove the PORT environment variable, `PORT=<port>` and the node environment variable, `NODE_ENV=development` from the `.env` file
+
 ### prettierrc
 
 Prettier prettifies your code but you can override the default configuration of prettier. See the example below:
@@ -76,6 +79,9 @@ Prettier prettifies your code but you can override the default configuration of 
   "arrowParens": "avoid"
 }
 ```
+
+#### Note!
+- For the case of this project remove the `singleQuote: true` and `arrorwParens: ""avoid` in order to use their default prettier configuration
 
 Read more on [prettier documentation](https://prettier.io/docs/en/options.html).
 
