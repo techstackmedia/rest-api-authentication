@@ -64,7 +64,7 @@ NODE_ENV=development
 ```
 
 #### Note!
-- When hosting to a platform like [heroku](https://www.heroku.com/), you need to remove the PORT environment variable, `PORT=<port>` and the node environment variable, `NODE_ENV=development` from the `.env` file
+- When hosting to a platform like [heroku](https://www.heroku.com/), you need to remove the port environment variable, `PORT=<port>` and the node environment variable, `NODE_ENV=development` from the `.env` file
 
 ### prettierrc
 
