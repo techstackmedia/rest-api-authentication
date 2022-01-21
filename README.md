@@ -81,7 +81,7 @@ Prettier prettifies your code but you can override the default configuration of 
 ```
 
 #### Note!
-- For the case of this project remove the `singleQuote: true` and `arrorwParens: "avoid"` in order to use their default prettier configuration
+- For the case of this project remove the `"singleQuote": true` and `"arrorwParens": "avoid"` in order to use their default prettier configuration
 
 Read more on [prettier documentation](https://prettier.io/docs/en/options.html).
 
