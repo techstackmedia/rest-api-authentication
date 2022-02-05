@@ -113,6 +113,15 @@ If you want suggestions on your code for better code practices and linting (high
 }
 ```
 
+### Note!
+
+- If you want to use eslint in your next project, install the below dev dependency packages
+
+```bash
+npm i -D eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-react
+```
+- Replace `npm i` for `yarn add` if you are using yarn registry.
+
 Read more on [eslint documentation](https://eslint.org/docs/user-guide/configuring/).
 
 ---
