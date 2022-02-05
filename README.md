@@ -98,7 +98,7 @@ If you want suggestions on your code for better code practices and linting (high
   "rules": {
     "prettier/prettier": "error",
     "spaced-comment": "off",
-    "no-console": "off",
+    "no-console": "warn",
     "consistent-return": "off",
     "func-names": "off",
     "object-shorthand": "off",
